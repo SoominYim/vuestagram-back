@@ -3,6 +3,8 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
+        "servestart": "pm2-dev start ./bin/www",
+        "servestop": "pm2-dev stop ./bin/www",
         "start": "node ./bin/www"
     },
     "dependencies": {
